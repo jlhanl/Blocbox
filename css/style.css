@@ -78,6 +78,20 @@ p {
   }
 }
 
+@media tv and (min-width: 700px) and (orientation: landscape) {
+  header .hero h1 {
+    font-size: 90px;
+    margin: 75px 0 0;
+  }
+}
+
+@media tv and (min-width: 700px) and (orientation: landscape) {
+  header .hero p {
+    font-size: 48px;
+    line-height: 60px;
+    margin: 40px 0 40px;
+  }
+}
 
 /* HEADER */
 
