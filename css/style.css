@@ -126,6 +126,53 @@ header .hero img {
   margin: 3em auto 0;
 }
 
+/********** BENEFITS **********/
+
+.benefits {
+  text-align: center;
+  position: relative;
+}
+
+.benefits img {
+  margin: 120px auto;
+}
+
+.feature-left {
+  margin: 120px auto;
+}
+
+.benefits ul li{
+  list-style-type: none;
+  display: block;
+}
+
+.feature-left ul li {
+  margin-top: 30px;
+ }
+
+ .benefits li {
+  margin: 0;
+ }
+
+.benefits i {
+  color: #367A94;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.benefits h2 {
+  color: #367A94;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.feature-right {
+  color: #394044;
+  text-align: left;
+  margin: 120px 10px auto 0;
+}
 
 /* BUTTONS */
 
