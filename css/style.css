@@ -136,11 +136,12 @@ header .hero img {
 }
 
 .benefits img {
-  margin: 120px auto;
+  margin: 120px 0 0 0;
 }
 
 .feature-left {
   margin: 120px auto;
+  float: left;
 }
 
 .benefits ul li{
@@ -150,10 +151,6 @@ header .hero img {
 
 .feature-left ul li {
   margin-top: 30px;
- }
-
- .benefits li {
-  margin: 0;
  }
 
 .benefits i {
@@ -173,7 +170,7 @@ header .hero img {
 .feature-right {
   color: #394044;
   text-align: left;
-  margin: 120px 10px auto 0;
+  float: left;
 }
 
 
@@ -324,32 +321,34 @@ header .hero img {
   padding: 30px;
   width: 286px;
   border-radius: 2%;
-  float: center;
   display: inline-block;
   margin-top: 40px;
 }
 
+.testimonials blockquote:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 0 12px 26px;
+  border-color: transparent transparent transparent #394044;
+}
+
 .testimonials img {
-  width: 65px;
-  height: 65px;
+  width: 100px;
+  height: 100px;
   position: relative;
   border-radius: 50%;
-  float: center;
-  display: inline-block;
   margin: 20px 0 0 0;
 }
 
 .name {
-  display: inline-block;
   position: relative;
   text-align: left;
   margin-left: 0;
 }
 
 
-/**************************
-****** MEDIA QUERIES ******
-***************************/
+/************ MEDIA QUERIES *************/
 
 @media (min-width: 768px){
   .container {
