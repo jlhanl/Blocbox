@@ -320,14 +320,19 @@ header .hero img {
   position: relative;
   padding: 30px;
   width: 286px;
-  border-radius: 2%;
+  border-radius: 4px;
   display: inline-block;
   margin-top: 40px;
 }
 
 .testimonials blockquote:after {
+  top: 20%;
+  left: 100%;
+  content: " ";
   width: 0;
   height: 0;
+  position: absolute;
+  pointer-events: none;
   border-style: solid;
   border-width: 12px 0 12px 26px;
   border-color: transparent transparent transparent #394044;
@@ -336,15 +341,18 @@ header .hero img {
 .testimonials img {
   width: 100px;
   height: 100px;
-  position: relative;
   border-radius: 50%;
-  margin: 20px 0 0 0;
+  margin: 0;
 }
 
 .name {
-  position: relative;
+  font-weight: 400;
   text-align: left;
   margin-left: 0;
+}
+
+.name span {
+  color: #367A94;
 }
 
 
