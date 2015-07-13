@@ -55,6 +55,16 @@ p {
   width: 100%;
 }
 
+.featleft, .featright {
+  float: left;
+  width: 30%;
+}
+
+.featright {
+  width: 68%;
+  margin-left: 2%
+}
+
 /* HEADER */
 
 header {
