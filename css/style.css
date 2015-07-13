@@ -63,7 +63,6 @@ header {
   background-size: cover;
   min-height: 680px;
   width: 100%
-
 }
 
 header nav {
@@ -129,7 +128,8 @@ header .hero img {
 /********** BENEFITS **********/
 
 .benefits {
-  background: #F9FAFA top center no-repeat;
+  min-height: 680px;
+  background: #F9FAFA;
   background-size: cover;
   text-align: center;
   position: relative;
@@ -181,15 +181,18 @@ header .hero img {
 
 .pricing {
   background: #5F6C73;
+  background-size: cover;
   padding: 4em 0;
   text-align: center;
+  position: relative;
 }
 
-.pricing h2, .pricing p {
+.pricing h2 {
   color: #F9FAFA;
 }
 
 .pricing p {
+  color: #F9FAFA;
   margin: auto 15em auto 15em;
 }
 
@@ -281,6 +284,66 @@ header .hero img {
   background: #7AB55C;
   border: 2px solid #7AB55C;
   box-shadow: 1px 2px 2px 0px rgba(122, 181, 92, 0.5);
+}
+
+
+/********** TESTIMONIALS **********/
+
+.testimonials {
+  background: url('../images/testimonial-background.png'); 
+  background-size: cover;
+  min-height: 503px;
+  width: 100%;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #367A94;
+}
+
+.testimonials p {
+  color: #394044;
+  margin: auto 14em auto 14em;
+}
+
+.quote {
+  display: inline-block;
+  float: center;
+  margin-top: 40px;
+}
+
+.testimonials blockquote {
+  color: #F9FAFA;
+  text-align: left;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 21px;
+  background: #394044;
+  position: relative;
+  padding: 30px;
+  width: 286px;
+  border-radius: 2%;
+  float: center;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.testimonials img {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  border-radius: 50%;
+  float: center;
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+
+.name {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-left: 0;
 }
 
 
