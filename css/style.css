@@ -55,7 +55,11 @@ p {
   width: 100%;
 }
 
+<<<<<<< Updated upstream
 .featleft, .featright {
+=======
+.featright, .featleft {
+>>>>>>> Stashed changes
   float: left;
   width: 30%;
 }
@@ -138,30 +142,11 @@ header .hero img {
 /********** BENEFITS **********/
 
 .benefits {
-  min-height: 680px;
   background: #F9FAFA;
   background-size: cover;
   text-align: center;
   position: relative;
 }
-
-.benefits img {
-  margin: 120px 0 0 0;
-}
-
-.feature-left {
-  margin: 120px auto;
-  float: left;
-}
-
-.benefits ul li{
-  list-style-type: none;
-  display: block;
-}
-
-.feature-left ul li {
-  margin-top: 30px;
- }
 
 .benefits i {
   color: #367A94;
@@ -177,10 +162,9 @@ header .hero img {
   margin-bottom: 30px;
 }
 
-.feature-right {
+.featright {
   color: #394044;
   text-align: left;
-  float: left;
 }
 
 
