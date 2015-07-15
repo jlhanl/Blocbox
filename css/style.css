@@ -23,6 +23,15 @@ p {
   font-weight: 100;
 }
 
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+
 /* GRID */
 
 .container {
@@ -411,9 +420,21 @@ footer .logo {
 
 /************ MEDIA QUERIES *************/
 
+@media (min-width: 320px) {
+
+  .testimonials p, .pricing p {
+    margin: 0 0 0 0;
+  }
+}
+
+
 @media (min-width: 768px){
   .container {
     width: 750px;
+  }
+
+  .testimonials p, .pricing p {
+    margin: 0 10rem;
   }
 }
 
