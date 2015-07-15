@@ -115,6 +115,7 @@ header nav ul > li.btn-outline:hover > a {
   color: #34495E;
 }
 
+
 header .hero {
   text-align: center;
   display: block;
@@ -477,5 +478,6 @@ footer .logo {
     padding: 2em 0 2em 1.5em;
   }
 }
+
 
 
