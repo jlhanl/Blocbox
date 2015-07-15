@@ -375,6 +375,7 @@ footer {
 
 .footer-nav-block {
   margin-right: 0;
+  padding-right: 0;
 }
 
 footer p, footer nav ul {
@@ -396,6 +397,8 @@ footer nav ul li a {
 
 footer .right-footer-block {
   background-color: #3498DB;
+  margin: 0;
+  float: right;
 }
 
 
