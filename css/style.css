@@ -468,6 +468,10 @@ footer .logo {
   text-decoration: none;
 }
 
+.top-nav ul li:active {
+  color: #F9FAFA; 
+}
+
 .top-nav ul li a i {
   text-align: center;
   margin-right: 5px;
@@ -518,6 +522,7 @@ footer .logo {
   float: center;
   width: 98%;
   position: relative;
+  overflow: hidden;
 }
 
 .content .header {
@@ -553,6 +558,10 @@ footer .logo {
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4);
   overflow: hidden;
   padding: 10px;
+}
+
+#image.item {
+  padding: 0px;
 }
 
 .item h2 {
