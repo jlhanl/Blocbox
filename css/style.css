@@ -501,4 +501,91 @@ footer .logo {
 }
 
 
+/************* DASHBOARD **************/
+
+.dashboard {
+  background: #F9FAFA;
+}
+
+.top-nav {
+  height: 114px;
+  width: 100%;
+  color: rgba(249, 250, 250, 0.5);
+  background: #394044;
+  position: fixed;
+  display: inline;
+}
+
+.top-nav .site-logo {
+  padding: 35px 50px;
+  background: rgba(54, 138, 169, 0.8);
+  display: block;
+  text-align: center;
+  float: left;
+}
+
+.top-nav ul {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(249, 250, 250, 0.5);
+  float: left;
+  padding: 30px 0 30px 30px;
+}
+
+.top-nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+.top-nav ul li a {
+  color: rgba(249, 250, 250, 0.5);
+  text-decoration: none;
+}
+
+.top-nav ul li a i {
+  text-align: center;
+  margin-right: 5px;
+}
+
+.top-nav .settings {
+  width: 20%;
+  height: 114px;
+  background: rgba(54, 138, 169, 0.8);
+  float: right;
+  display: inline;
+}
+
+.top-nav .settings p {
+  color: #F9FAFA;
+  font-weight: 200;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+  padding: 45px 0;
+  float: left;
+}
+
+.top-nav .settings img {
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 35px 0;
+  float: left;
+}
+
+.top-nav .settings a {
+  float: right;
+  text-decoration: none;
+  color: #F9FAFA;
+  padding: 45px 0;
+}
+
+.top-nav .settings a i {
+  text-align: center;
+  margin-right: 5px;
+}
+
 
