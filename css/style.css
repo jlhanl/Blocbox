@@ -486,6 +486,10 @@ footer .logo {
   display: inline;
 }
 
+.top-nav .settings ul {
+  margin-top: 0;
+}
+
 .top-nav .settings p {
   color: #F9FAFA;
   font-weight: 200;
@@ -508,11 +512,18 @@ footer .logo {
   float: right;
   text-decoration: none;
   color: #F9FAFA;
+  font-size: 16px;
+  padding: 45px 0 45px 20px;
 }
 
 .top-nav .settings a i {
   text-align: center;
 }
+
+.settings ul {
+  padding: 0;
+}
+
 
 /************* CONTENT *************/
 
