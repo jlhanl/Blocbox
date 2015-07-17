@@ -319,10 +319,21 @@ header .hero img {
   margin: auto 14em auto 14em;
 }
 
+.carousel {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .quote {
-  display: inline-block;
-  float: center;
+  display: block;
+  float: left;
   margin-top: 40px;
+}
+
+.right-quote {
+  float: left;
+  margin: 0 0 0 5%;
+  width: 45%;
 }
 
 .testimonials blockquote {
@@ -333,11 +344,12 @@ header .hero img {
   line-height: 21px;
   background: #394044;
   position: relative;
-  padding: 30px;
-  width: 286px;
+  padding: 5%;
+  width: 40%;
   border-radius: 4px;
   display: inline-block;
-  margin-top: 40px;
+  margin: 40px 0 0 0;
+  float: left;
 }
 
 .testimonials blockquote:after {
