@@ -1,3 +1,24 @@
+/*Junk to be deleted*/
+.demo {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  background-color: green;
+  float: right;
+}
+
+/*.navdrop {
+  background-color: red;
+  display: none;
+  margin-top: 100px;
+  width: 100%%;
+  float: right;
+  z-index: 2;
+  position: fixed;
+}*/
+
+
+/*real code*/
 html, body {
   overflow-x: hidden;
 }
@@ -623,6 +644,12 @@ footer .logo {
   .testimonials p, .pricing p {
     margin: 0 0 0 0;
   }
+  .phone-hide {
+    display: none;
+  }
+  .phone-show {
+    display: block;
+  }
 }
 
 
@@ -649,23 +676,17 @@ footer .logo {
   .one-fourth {
     width: 21%;
   } 
-  .phone-hide {
-    display: none;
-  }
-  .phone-show {
-    display: block;
-  }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
-  .phone-hide {
-    display: block;
-  }
   .phone-show {
     display: none;
+  }
+  .phone-hide {
+    display: block;
   }
 }
 
