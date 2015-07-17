@@ -490,7 +490,7 @@ footer .logo {
   color: #F9FAFA;
   font-weight: 200;
   font-size: 14px;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 5px;
   padding: 45px 0;
   float: left;
 }
@@ -499,7 +499,7 @@ footer .logo {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 35px 0;
   float: left;
 }
@@ -508,8 +508,6 @@ footer .logo {
   float: right;
   text-decoration: none;
   color: #F9FAFA;
-  padding: 45px 0;
-  margin-right: 30px;
 }
 
 .top-nav .settings a i {
