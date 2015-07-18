@@ -331,9 +331,10 @@ header .hero img {
 }
 
 .right-quote {
+  display: block;
   float: left;
-  margin: 0 0 0 5%;
-  width: 45%;
+  margin: 55px 0 0 8%;
+  width: 42%;
 }
 
 .testimonials blockquote {
@@ -369,14 +370,14 @@ header .hero img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  float: left;
 }
 
-p.name {
+.right-quote p {
   font-weight: 400;
   text-align: left;
-  margin-right: 0;
-  margin-left: 550px;
+  float: left;
 }
 
 .name span {
@@ -633,6 +634,10 @@ footer .logo {
 
   .testimonials p, .pricing p {
     margin: 0 10rem;
+  }
+
+  .right-quote p {
+    margin: 0;
   }
 }
 
