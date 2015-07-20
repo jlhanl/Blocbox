@@ -320,7 +320,7 @@ header .hero img {
 }
 
 .carousel {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -334,8 +334,8 @@ header .hero img {
 .right-quote {
   display: block;
   float: left;
-  margin: 55px 0 0 8%;
-  width: 42%;
+  margin: 60px 0 0 10%;
+  width: 34%;
 }
 
 .testimonials blockquote {
@@ -347,10 +347,11 @@ header .hero img {
   background: #394044;
   position: relative;
   padding: 5%;
-  width: 40%;
+  width: 35%;
   border-radius: 4px;
   display: inline-block;
-  margin: 40px 0 0 0;
+  margin: 40px 20px 0 20px;
+  left: 45px;
   float: left;
 }
 
