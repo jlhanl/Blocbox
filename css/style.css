@@ -1,24 +1,3 @@
-/*Junk to be deleted*/
-.demo {
-  width: 40px;
-  height: 40px;
-  margin: 20px;
-  background-color: green;
-  float: right;
-}
-
-/*.navdrop {
-  background-color: red;
-  display: none;
-  margin-top: 100px;
-  width: 100%%;
-  float: right;
-  z-index: 2;
-  position: fixed;
-}*/
-
-
-/*real code*/
 html, body {
   overflow-x: hidden;
 }
@@ -343,6 +322,7 @@ header .hero img {
 .carousel {
   width: 50%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .quote {
@@ -482,7 +462,7 @@ footer .logo {
   padding: 35px 0;
 }
 
-.top-nav ul {
+.phone-hide ul {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 14px;
@@ -492,22 +472,22 @@ footer .logo {
   padding: 35px 0 35px 20px;
 }
 
-.top-nav ul li {
+.phone-hide ul li {
   list-style-type: none;
   display: inline;
   margin-right: 15px;
 }
 
-.top-nav ul li a {
+.phone-hide ul li a {
   color: rgba(249, 250, 250, 0.5);
   text-decoration: none;
 }
 
-.top-nav ul li:active {
+.phone-hide ul li:active {
   color: #F9FAFA; 
 }
 
-.top-nav ul li a i {
+.phone-hide ul li a i {
   text-align: center;
   margin-right: 5px;
 }
@@ -520,11 +500,11 @@ footer .logo {
   display: inline;
 }
 
-.top-nav .settings ul {
+.phone-hide .settings ul {
   margin-top: 0;
 }
 
-.top-nav .settings p {
+.phone-hide .settings p {
   color: #F9FAFA;
   font-weight: 200;
   font-size: 14px;
@@ -542,7 +522,7 @@ footer .logo {
   float: left;
 }
 
-.top-nav .settings a {
+.phone-hide .settings a {
   float: right;
   text-decoration: none;
   color: #F9FAFA;
@@ -550,7 +530,7 @@ footer .logo {
   padding: 45px 0 45px 20px;
 }
 
-.top-nav .settings a i {
+.phone-hide .settings a i {
   text-align: center;
 }
 
@@ -558,6 +538,16 @@ footer .logo {
   padding: 0;
 }
 
+.phone-show .nav-icon {
+  float: right;
+  color: #F9FAFA;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #7AB55C;
+  border-radius: 4%;
+  padding: 0.5rem 1rem;
+  margin: 20px 30px 10px 0px; 
+}
 
 /************* CONTENT *************/
 
@@ -645,9 +635,11 @@ footer .logo {
   .testimonials p, .pricing p {
     margin: 0 0 0 0;
   }
+
   .phone-hide {
     display: none;
   }
+
   .phone-show {
     display: block;
   }
@@ -666,6 +658,14 @@ footer .logo {
   .right-quote p {
     margin: 0;
   }
+
+  .phone-hide {
+    display: none;
+  }
+
+  .phone-show {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -680,34 +680,7 @@ footer .logo {
   }
   .one-fourth {
     width: 21%;
-  } 
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
   }
-  .phone-show {
-    display: none;
-  }
-  .phone-hide {
-    display: block;
-  }
-}
-
-@media tv and (min-width: 700px) and (orientation: landscape) {
-  header .hero h1 {
-    font-size: 90px;
-    margin: 75px 0 0;
-  }
-  header .hero p {
-    font-size: 48px;
-    line-height: 60px;
-    margin: 40px 0 40px;
-  }
-}
-
-@media (min-width: 992px) {
   footer {
     background-color: #394044;
     height: 100px;
@@ -721,6 +694,36 @@ footer .logo {
   }
   footer .logo {
     padding: 2em 0 2em 1.5em;
+  } 
+  .phone-hide {
+    display: none;
+  }
+  .phone-show {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .phone-hide {
+    display: block;
+  }
+  .phone-show {
+    display: none;
+  }
+}
+
+@media tv and (min-width: 700px) and (orientation: landscape) {
+  header .hero h1 {
+    font-size: 90px;
+    margin: 75px 0 0;
+  }
+  header .hero p {
+    font-size: 48px;
+    line-height: 60px;
+    margin: 40px 0 40px;
   }
 }
 

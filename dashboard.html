@@ -28,41 +28,52 @@
 
    <nav id="top-nav" class="top-nav">
       <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
-      <div class="phone-hide">
-         <ul>
-            <li class="active"><a href="#"><i class="fa fa-th-large"></i>All Items</a></li>
-            <li><a href="#"><i class="fa fa-file-o"></i>Notes</a></li>
-            <li class=><a href="#"><i class="fa fa-picture-o"></i>Images</a></li>
-            <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
-            <li><a href="#"><i class="fa fa-inbox"></i>Boxes</a></li>
-         </ul>
-         <div class="settings">
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/allisongrayce/128.jpg">
-            <p>Jenna Maroney</p>
-            <ul class="settings-menu">
-               <li><a href="#"><i class="fa fa-cog"></i></a>
+         <div class="phone-hide">
+            <ul class="nav-links">
+               <li class="active"><a href="#"><i class="fa fa-th-large"></i>All Items</a></li>
+               <li><a href="#"><i class="fa fa-file-o"></i>Notes</a></li>
+               <li><a href="#"><i class="fa fa-picture-o"></i>Images</a></li>
+               <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
+               <li><a href="#"><i class="fa fa-inbox"></i>Boxes</a></li>
+            </ul>
+            <div class="settings">
+               <img src="https://s3.amazonaws.com/uifaces/faces/twitter/allisongrayce/128.jpg">
+               <p>Jenna Maroney</p>
+               <ul class="settings-menu">
+                  <li><a href="#"><i class="fa fa-cog"></i></a>
+                     <ul class="drop-items">
+                        <li><a href="#"><i class="fa fa-users"></i> Account Settings</a></li>
+                        <li><a href="#"><i class="fa fa-picture-o"></i> Collaborators</a></li>
+                        <li><a href="#"><i class="fa-sign-out"></i> Sign Out</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="phone-show">
+            <ul class="settings-drop">
+               <li><a class="nav-icon" href="#"><i class="fa fa-cog"></i></a>
                   <ul>
                      <li><a href="#"><i class="fa fa-users"></i> Account Settings</a></li>
                      <li><a href="#"><i class="fa fa-picture-o"></i> Collaborators</a></li>
-                     <li><a href="#"><i class="fa-sign-out"></i> Sign Out</a></li>
+                     <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
+                  </ul>
+               </li>
+            </ul>
+            <ul class="nav-drop">
+               <li><a class="nav-icon" href="#"><i class="fa fa-navicon"></i></a>
+                  <ul>
+                     <li><a href="#"><i class="fa fa-th-large"></i> All Items</a></li>
+                     <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
+                     <li><a href="#"><i class="fa fa-picture-o"></i> Images</a></li>
+                     <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
+                     <li><a href="#"><i class="fa fa-inbox"></i> Boxes</a></li>
                   </ul>
                </li>
             </ul>
          </div>
-      </div>
-      <div class="phone-show">
-         <!-- hamburger icon goes here -->
-         <div class="demo"></div>
-      </div>
    </nav>
-   <div class="navdrop">
-      <ul>
-         <li>Item 1</li>
-         <li>Item 2</li>
-         <li>Item 3</li>
-         <li>Item 4</li>
-      </ul>
-   </div>
+
 
    <main role="main">
 
@@ -130,9 +141,12 @@
    <script src="js/jquery-2.1.4.min.js"></script>
    <script src="js/dropit.js"></script>
    <script type="text/javascript">
-     $(".menu").dropit();
-     $(".settings-menu").dropit();
-     $(".demo").dropit();
+      $(document).ready(function(){
+         $(".menu").dropit();
+         $(".settings-menu").dropit();
+         $(".nav-drop").dropit();
+         $(".settings-drop").dropit();
+      });
    </script>
 
 </body>

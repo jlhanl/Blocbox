@@ -27,7 +27,23 @@
     min-width: 100px;
     list-style: none;
 	padding: 20px;
-	margin: 20px 0 0;
+	margin: 10px 30px 0 0;
+}
+
+.settings-menu ul.dropit-submenu {
+    float: right;
+    min-width: 200px;
+    padding: 20px 20px 0 20px;
+    margin: 60px -60px 0 0;
+}
+
+.settings-drop ul.dropit-submenu {
+    min-width: 150px;
+    margin: 65px 38px 0 0;
+}
+
+.nav-drop ul.dropit-submenu {
+    margin: 65px 38px 0 0;
 }
 
 .dropit .dropit-open .dropit-submenu { 
@@ -66,3 +82,10 @@
     font-weight:100;
 }
 
+.settings-menu ul.dropit-submenu a {
+    float: left;
+    text-align: left;
+    text-transform: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
